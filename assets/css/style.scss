@@ -1,0 +1,33 @@
+---
+---
+
+// Align an element to center (images etc.)
+.align-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+// White 'Bold' highlight
+.text-highlight {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.annotate-highlight {
+    color: rgb(18, 18, 52);
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.25); 
+    padding: 12px; /* Simplified to apply equal padding on all sides */
+    border-radius: 30px; /* Rounded corners for the border */
+    line-height: 1.5; /* Adjust line height to ensure even padding */
+    display: inline-block; /* Ensures the element is treated as a block-level element but only takes up as much width as necessary */
+}
+
+// Grey italic text for module brackets
+.module-description {
+    color: rgb(128, 152, 152);
+    font-style: italic;
+}
+
+@import 'jekyll-theme-hacker';
