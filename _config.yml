@@ -16,10 +16,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jo Bloggs - Sheffield Computer Science Graduate"
+title                    : "Dili Okoli - Sheffield Computer Science Graduate"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Jo Bloggs"
+name                     : "Dili Okoli"
 description              : "A Sheffield Computer Science graduate's portfolio site."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -104,7 +104,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jo Bloggs"
+  name             : "Dili Okoli"
   avatar           : "/assets/image/Profile.png"
   bio              : "A succesful graduate of Sheffield Computer Science"
   location         : "Sheffield"
@@ -315,7 +315,7 @@ atom_feed:
   
   
 sections:
-  portfolio_url: /cs_portfolio
-  about_url: /cs_portfolio/about
-  cv_url: /cs_portfolio/cv
-  course_url: /cs_portfolio/course
+  portfolio_url: /
+  about_url: /about
+  cv_url: /cv
+  course_url: /course

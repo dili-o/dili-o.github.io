@@ -1,32 +1,33 @@
 ---
-annotation-link: /cs_portfolio/course-a
-
 layout: default
 title: My Course
 permalink: /course/
 ---
 
-![Course-Image]({{ site.url }}{{ site.baseurl }}/assets/images/Course.png)
+# MEng Software Engineering
 
-# BSc Computer Science
+### Year 4
+-   **Genesys** <span class="module-description">(group work; Working with clients to identify and solve problems through agile and lean startup practices)</span>
 
-### Placement Year
-- Collaborated with a cross-functional team to design, implement, and test software solutions, gaining hands-on experience with industry-standard tools and methodologies.
-- Adapted quickly to the company's technology stack and coding standards, showcasing flexibility and a strong ability to learn on the job.
-- Worked effectively within an agile development environment, participating in daily stand-ups, sprint planning, and retrospective meetings to ensure project milestones were met.
+#### Self-Elected Modules
+-	**Parallel Computing with Graphical Processing Units (GPUs)** <span class="module-description">(multi-core CPU processing using OpenMP and high performance GPU programming using CUDA; Writing optimized parallel code while understanding hardware for maximum efficiency)</span>
+-	**Natural Language Processing** <span class="module-description">(explore NLP applications like machine translation and text classification, gaining hands-on experience in implementing and evaluating NLP techniques)</span>
+-	**Machine Learning and Adaptive Intelligence** <span class="module-description">(statistical machine learning and probabilistic modeling to describe real-world phenomena)</span>
+-	**Text Processing** <span class="module-description">(explores modern quantitative techniques for analyzing large text corpora)</span>
+-	**Speech Processing** <span class="module-description">(examines both the production and perception of speech, taking a multi-disciplinary approach)</span>
 
 ### Year 3
 - **Dissertation Project** <span class="module-description">(One third of final year. Individual research project)</span>
 - **Finance and Law for Engineers** <span class="module-description">(introduce engineering students to key areas of financial and legal risk that engineers should be aware of in their working environment)</span>
 
 #### Self-Elected Modules
--	**3D Computer Graphics** <span class="module-description">(techniques used in modern 3D computer graphics; Programming: Java, OpenGL, GLSL)</span>
--	**Computer Vision** <span class="module-description">(Programming work uses deep learning tools)</span>
+-	**3D Computer Graphics** <span class="module-description">(techniques used in modern 3D computer graphics; Programming: C++, OpenGL, GLSL)</span>
 -	**Software Reengineering** <span class="module-description">(how to reverse-engineer and appraise complex, unwieldy systems by implementing source code and execution analysis techniques; strategies that can be used to adapt and reengineer such systems to improve their quality and viability; Practical work using Git repositories)</span>
 -	**Software Testing and Analysis** <span class="module-description">(problems and techniques of analysing and testing software systems)</span>
--	**The Internet of Things** <span class="module-description">(practical hands-on experience of common IoT devices; Practical work involves programming an IoT device and capturing and analysing data)</span>
+-	**Reinforcement Learning** <span class="module-description">(Introduction to the fundamentals of reinforcement learning, where agents learn through trial and error using rewards)</span>
 -	**Software Development for Mobile Devices** <span class="module-description">(Uses MVC or MVVM when developing software for mobile devices; Practical work develops skills with the Android platform)</span>
--	**Speech Processing** <span class="module-description">(examines both the production and perception of speech, taking a multi-disciplinary approach)</span>
+-	**Cyber Security Team Project** <span class="module-description">(Cyber security management, incident handling, and threat mitigation)</span>
+-	**Managing Engineering Projects and Teams** <span class="module-description">(group work; Project management skills, covering the project lifecycle, risk and quality management, and stakeholder engagement in engineering contexts. Emphasizing both technical and human factors needed to foster teamwork, collaboration, and effective project execution within organizations)</span>
 
 ### Year 2
 - **Data Driven Computing** <span class="module-description">(introduction to machine learning and pattern processing, but with a clear emphasis on applications; Programming: Python)</span>

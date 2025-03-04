@@ -1,78 +1,56 @@
 ---
-annotation-link: /cs_portfolio/index-a
-
 layout: default
 title: Portfolio
 permalink: /
 ---
 
-## Derrickman: Pure C++ Project
+## Vulkan Renderer
 
-<video width="600" controls loop autoplay muted playsinline>
-  <source src="{{ site.url }}{{ site.baseurl }}/assets/Oil Strike 75.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<img src="{{ site.baseurl }}/assets/FlightHelmet.png" width="600">
 
 <div class="project-desc" markdown="1">
-- Personal Project: A small retro-inspired game coded completely by me using C++
-- Demonstrates the use of DirectX 11 and my own shaders
-- Includes OO C++ features like polymorphism and inheritance
-- Implemented an analytics system to visualise heatmap data for player deaths
+- A vulkan renderer where I am explore modern rendering techniques
+- Implements GPU driven techniques like compute frustum and occlusion culling
+- Makes use of Imgui to display a GPU profiler
 </div>
 
-<i>This project involved creating a robust GameObject class hierarchy from scratch, showcasing Object-Oriented Programming principles like polymorphism and inheritance. I implemented a base GameObject class with shared functionality and extended it for specific game elements like the player, enemies, and interactable objects, ensuring efficient and consistent behavior.</i>
+<i>A modern rendering engine built with Vulkan that leverages GPU-driven techniques to maximize efficiency and visual quality. This project explores modern real-time rendering approaches and advancements in graphics programming.</i>
 
-<i>I also developed an analytics system to log and visualize player deaths via heatmaps, combining gameplay programming with data-driven insights. This project highlights my ability to design and implement both low-level engine features and high-level gameplay systems in pure C++.</i>
-
-- Access the GitHub repository HERE <span class="module-description">[not a real link]</span>
-- Game download HERE (4MB) <span class="module-description">[not a real link]</span>
-
+<div markdown="1">
+ Access the GitHub repository [HERE](https://github.com/dili-o/vulkan-renderer)
+</div>
 ----------------------
 
 
 
 
-## Get A Wiggle On: Unreal C++ Project
+## Compute based Path Tracer
 
-<video width="600" controls loop autoplay muted playsinline>
-  <source src="{{ site.url }}{{ site.baseurl }}/assets/Snake%20Party.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<img src="{{ site.baseurl }}/assets/Pathtracer.png" width="600">
 
 <div class="project-desc" markdown="1">
-- Group project: Originally a Ludem Dare game which my team continues to develop for 3 months 
-- My role involved creating the segmented physics and collision system for the snakes
-- Demonstrates custom Blueprint nodes written in C++ (minimal Blueprints used)
-- The team is working towards releasing the game on Steam
+- Uses Vulkan's compute pipeline to process ray intersections in parallel
+- Implements Lambertian, Metal, and Dielectric materials
+- Accumulates rendered frames for progressive refinement
 </div>
 
-<i>In this project, I designed the segmented physics and collision system that drives the snakes’ dynamic, lifelike movement, tackling the challenges of ensuring stability across linked segments. My work extended Unreal's capabilities by writing custom Blueprint nodes in C++, allowing the team to streamline gameplay programming while minimizing reliance on traditional Blueprints.</i>
+<i>In this project, I implement the core concepts discussed in the e-book ["Ray Tracing in One Weeked"](https://raytracing.github.io/books/RayTracingInOneWeekend.html), converting the CPU implementation from the book to a GPU implementation utilizing the compute pipeline in the Vulkan API.</i>
 
-<i>Collaborating in a team environment, I focused on clean, maintainable C++ code that integrates seamlessly with Unreal Engine 5. This project demonstrates my ability to handle complex gameplay mechanics and contribute to a long-term, team-driven development effort aiming for a Steam release.</i>
- 
-- Access the GitHub repository with just my C++ code HERE <span class="module-description">[not a real link]</span>
-- Full UE5 project download HERE (8GB) <span class="module-description">[not a real link]</span>
-
+<div markdown="1">
+Access the GitHub repository [HERE](https://github.com/dili-o/RayTracing)
+</div>
 ----------------------
 
-## Maths Buster: Unity C# Project
+## Space Invaders Clone: SFML Project
 
-<video width="600" controls loop autoplay muted playsinline>
-  <source src="{{ site.url }}{{ site.baseurl }}/assets/Gardeners of the Galaxy.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
+<img src="{{ site.baseurl }}/assets/Space_Invaders.gif" alt="Animated GIF" width="600">
 <div class="project-desc" markdown="1">
-- Final Year Individual Project: An educational mathematics game coded completely by me in C#
-- Demonstrates use of Unity and adaptive difficulty algorithms
-- I received an 84% overall mark for individual project work
-- A paper written on the game was presented at the ECGBL conference in Spain
+- Entity Component System (ECS) for separation of concerns and improved performance
+- AABB Collision Detection and Resolution for precise hitbox interactions between player, enemies, and projectiles
+- Resource Management for managing loading and caching of textures, sounds, and fonts
 </div>
 
-<i>This project explored how adaptive difficulty algorithms could enhance engagement in educational games. I designed a system that dynamically adjusted challenges based on player performance, balancing learning and enjoyment. Beyond development, I analyzed player data to refine mechanics, contributing to a conference paper presented at ECGBL in Spain.</i>
+<i>This project is a clone of the arcade classic Space Invaders, built from the ground up in C++ with SFML. The project was built as a learning experience following the free lectures by [David Churchill](https://www.youtube.com/playlist?list=PL_xRyXins84_Jf-aCh7chj47HR4oZLPwK) on game programming using an Entity Component System.
 
-<i>Building the game entirely in Unity and C#, I honed my skills in both gameplay programming and creating meaningful user experiences. This project not only earned academic recognition but also deepened my understanding of integrating educational theory with game design.</i>
- 
-- Access the GitHub repository with just my C# code HERE <span class="module-description">[not a real link]</span>
-- Full project download HERE (2GB) <span class="module-description">[not a real link]</span>
+Access the GitHub repository [HERE](https://github.com/dili-o/Scene_Invaders)
 

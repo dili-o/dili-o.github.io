@@ -1,6 +1,4 @@
 ---
-annotation-link: /cs_portfolio/cv-a
-
 layout: default
 title: Curriculum Vitae
 permalink: /cv/
@@ -9,41 +7,44 @@ author_profile : true
 ---
 
 ## C++ Portfolio
-My portfolio website: <a href="https://sumo-digital-academy.github.io/cs_portfolio">http://jobloggs.com/portfolio</a>
+My portfolio website: <a href="https://dili-o.github.io/">https://dili-o.github.io/</a>
+
+## Skills
+- C++
+- CMake
+- OpenGL
+- Vulkan
+- GLSL
+- RenderDoc
 
 ## Professional Summary
-As a recent computer science graduate, I bring a robust skill set in software development, algorithms, and data structures. My academic background has equipped me with a solid foundation in programming languages such as Java, Python, and <a href="https://sumo-digital-academy.github.io/cs_portfolio">C++</a>, and I have successfully applied these skills to various projects throughout my degree work and beyond. 
 
-I am particularly adept at problem-solving and possess a keen analytical mindset. My dedication to learning and staying on top of of the latest industry trends is evident in my engagement with <a href="https://sumo-digital-academy.github.io/cs_portfolio">portfolio projects</a> outside of my degree. With a passion for technology and a drive to contribute to innovative solutions, I am eager to apply my knowledge and skills in a dynamic professional setting. 
-
-I am confident in my ability to adapt quickly, collaborate effectively, and make meaningful contributions to any team or project in the field of game development.
+I am a 4th year Software Engineering student with a solid foundation in software de-velopment, algorithms, and data structures, and a particular passion for game devel-opment. My academic experience has provided me with extensive expertise in C++, which I actively use in personal projects. I am well-versed in 3D math including vec-tor and matrix operations and I am eager to apply these skills to create innovative game features.
+I thrive in collaborative, multidisciplinary environments and I am dedicated to writ-ing high-quality, efficient code. I am confident in my problem-solving abilities and my commitment to meeting deadlines while taking ownership of my work.
 
 ## Education
 ### The University of Sheffield
-2020 - 2023  
-BSc (Hons) - Computer Science (First Class)
-<br>
-A traditional <a href="https://sumo-digital-academy.github.io/cs_portfolio/course">Computer Science degree</a> at a redbrick university.  
+September 2021 - June 2023  
+MEng Software Engineering
 
-### Sheffield College
-2017 - 2020  
-BTEC Level 3 - Computer Science (Double Distinction)
+### Northgate Sixth Form
+September 2018 - June 2020  
+Computer Science(A), Mathematics(B), Physics(B)
 
-### Sheffield Academy School
-2016 - 2017  
-9 GCSEs including Maths (Grade 9 or A**) and English at (Grade 7 or B)
+### Canons High School
+Febuary 2016 - June 2018  
+9 GCSEs including Maths and English
 
-## Work History
-### Multi-National Business Automatons
-Duration: July 2022 - June 2023
-Role: Junior Systems Analyst
+## Personal Projects
+### Vulkan Renderer
+A high-performance, modern rendering engine built with Vulkan that leverages GPU-driven techniques to maximize efficiency and visual quality. This project explores modern real-time rendering approaches and advancements in graphics programming.
+The project implements a variety of features such as indirect draw calls, GPU frustum culling, two-pass occlusion culling utilizing a hierarchical depth pyramid, mesh shader pipeline, Physically Based Rendering and bindless resource management. It also utilizes task-based multithreading for asynchronous image loading as well as modern C++ features.
 
-I couldn't get a placement in the games industry, so I spent a year working in systems analysis and IT consulting at MNBA (a leader in enterprise technology solutions).
-My key responsibilities included:
-- **System Design & Implementation:** Assisted in creating scalable IT solutions, focusing on cloud computing and ERP systems.
-- **Client Consultation:** Worked with clients to understand their needs, offering technical support and recommendations to enhance their IT infrastructure
-- **Data Analysis:** Performed data analysis to identify performance issues and improvement opportunities, presenting findings to management.
-- **Project Support:** Aided project managers in tracking milestones and deliverables, ensuring projects stayed on schedule and within budget.
-- **Technical Documentation:** Created detailed system specifications, user manuals, and troubleshooting guides.
-This experience provided a strong foundation in systems analysis equipping me with the skills to address complex IT challenges and contribute effectively to any team.
+### Path tracing
+A path tracer implemented using Vulkan compute shaders, inspired by the "Ray Tracing in One Weekend" book but accelerated through GPU parallelization. This project demonstrates the power of modern graphics APIs for general-purpose computing tasks.
+The implementation efficiently translates the recursive CPU-based algorithms from the Ray Tracing in One Weekend book to the massively parallel architecture of modern GPUs, achieving orders of magnitude performance improvement over traditional CPU implementations while maintaining physically accurate render-ing results.
+
+### Space Invaders
+This project is a clone of the arcade classic Space Invaders, built from the ground up in C++ with SFML. The game leverages SFML's rendering, input, and audio capabilities while implementing custom systems for collision, entity management, and game logic. The modular architecture makes it easily extendable for future features.
+This project demonstrates strong understanding of game development fundamentals, object-oriented design principles, and modern C++ practices.
 
