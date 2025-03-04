@@ -17,7 +17,8 @@ permalink: /course/
 -	**Speech Processing** <span class="module-description">(examines both the production and perception of speech, taking a multi-disciplinary approach)</span>
 
 ### Year 3
-- **Dissertation Project** <span class="module-description">(One third of final year. Individual research project)</span>
+- **Dissertation Project** <span class="module-description">(Web framework that provides a GUI for building layers in a neural network; Uses the Svelte framework and Json for configuration)</span>
+<img src="{{ site.baseurl }}/assets/Dissertation.png" width="600">
 - **Finance and Law for Engineers** <span class="module-description">(introduce engineering students to key areas of financial and legal risk that engineers should be aware of in their working environment)</span>
 
 #### Self-Elected Modules

@@ -4,7 +4,7 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/assets/css/style.css?v=a8d8fea2a33f2eb2e355bea9ce8962d31eadc6bd">
+    <link rel="stylesheet" href="/assets/css/style.css?v=c360575da6e36fea0180a0224f94826deef1b5a2">
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
 <!-- Setup theme-color -->
@@ -67,19 +67,21 @@
 
     <div class="container">
       <section id="main_content">
-        <h2 id="vulkan-renderer">Vulkan Renderer</h2>
+        <h2 id="c-vulkan-renderer">C++ Vulkan Renderer</h2>
 
-<p><img src="/assets/FlightHelmet.png" width="600" /></p>
+<p><img src="/assets/FlightHelmet.png" width="600" />
+<img src="/assets/Sponza.png" width="600" />
+<img src="/assets/Sponza_Meshlet.png" width="600" /></p>
+
+<p><i>A modern rendering engine written from scratch using C++ with the <a href="https://vulkan.lunarg.com/">Vulkan API</a> that leverages GPU-driven techniques to maximize efficiency and visual quality. This project explores modern real-time rendering approaches and advancements in graphics programming. The renderer is a used to view <a href="https://www.khronos.org/Gltf">glTF</a> models. </i></p>
 
 <div class="project-desc">
   <ul>
-    <li>A vulkan renderer where I am explore modern rendering techniques</li>
-    <li>Implements GPU driven techniques like compute frustum and occlusion culling</li>
+    <li>Implements a <a href="https://www.khronos.org/blog/mesh-shading-for-vulkan">mesh shader</a> pipeline for GPU side meshlet culling</li>
+    <li>Implements two-pass <a href="https://jcgt.org/published/0002/02/05/">occlusion culling</a> using a depth pyramid</li>
     <li>Makes use of Imgui to display a GPU profiler</li>
   </ul>
 </div>
-
-<p><i>A modern rendering engine built with Vulkan that leverages GPU-driven techniques to maximize efficiency and visual quality. This project explores modern real-time rendering approaches and advancements in graphics programming.</i></p>
 
 <div>
   <p>Access the GitHub repository <a href="https://github.com/dili-o/vulkan-renderer">HERE</a></p>
@@ -90,6 +92,8 @@
 
 <p><img src="/assets/Pathtracer.png" width="600" /></p>
 
+<p><i>In this project, I implement the core concepts discussed in the e-book <a href="https://raytracing.github.io/books/RayTracingInOneWeekend.html">“Ray Tracing in One Weeked”</a>, converting the CPU implementation from the book to a GPU implementation utilizing the compute pipeline in the Vulkan API.</i></p>
+
 <div class="project-desc">
   <ul>
     <li>Uses Vulkan’s compute pipeline to process ray intersections in parallel</li>
@@ -98,16 +102,17 @@
   </ul>
 </div>
 
-<p><i>In this project, I implement the core concepts discussed in the e-book <a href="https://raytracing.github.io/books/RayTracingInOneWeekend.html">“Ray Tracing in One Weeked”</a>, converting the CPU implementation from the book to a GPU implementation utilizing the compute pipeline in the Vulkan API.</i></p>
-
 <div>
   <p>Access the GitHub repository <a href="https://github.com/dili-o/RayTracing">HERE</a></p>
 </div>
 <hr />
 
-<h2 id="space-invaders-clone-sfml-project">Space Invaders Clone: SFML Project</h2>
+<h2 id="space-invaders-clone-c-sfml-project">Space Invaders Clone: C++ SFML Project</h2>
 
 <p><img src="/assets/Space_Invaders.gif" alt="Animated GIF" width="600" /></p>
+
+<p><i>This project is a clone of the arcade classic Space Invaders, built from the ground up in C++ with SFML. The project was built as a learning experience following the free lectures by <a href="https://www.youtube.com/playlist?list=PL_xRyXins84_Jf-aCh7chj47HR4oZLPwK">David Churchill</a> on game programming using an Entity Component System.</i></p>
+
 <div class="project-desc">
   <ul>
     <li>Entity Component System (ECS) for separation of concerns and improved performance</li>
@@ -116,10 +121,10 @@
   </ul>
 </div>
 
-<p><i>This project is a clone of the arcade classic Space Invaders, built from the ground up in C++ with SFML. The project was built as a learning experience following the free lectures by <a href="https://www.youtube.com/playlist?list=PL_xRyXins84_Jf-aCh7chj47HR4oZLPwK">David Churchill</a> on game programming using an Entity Component System.</i></p>
-
-<p>Access the GitHub repository <a href="https://github.com/dili-o/Scene_Invaders">HERE</a></p>
-
+<div>
+  <p>Access the GitHub repository <a href="https://github.com/dili-o/Scene_Invaders">HERE</a></p>
+</div>
+<hr />
 
       </section>
     </div>

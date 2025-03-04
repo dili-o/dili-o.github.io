@@ -24,7 +24,7 @@ I thrive in collaborative, multidisciplinary environments and I am dedicated to 
 
 ## Education
 ### The University of Sheffield
-September 2021 - June 2023  
+September 2021 - June 2025  
 MEng Software Engineering
 
 ### Northgate Sixth Form
