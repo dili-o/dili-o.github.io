@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
+					<h1>
+						<strong>Dili Okoli</strong> - Sheffield Software Engineer Graduate<br />
+					</h1>
+
+					<!-- New Navigation Section -->
+					<nav>
+						<ul class="actions stacked">
+							<li><a href="index.html" class="button primary fit">Portfolio</a></li>
+							<li><a href="about.html" class="button fit">About Me</a></li>
+							<li><a href="cv.html" class="button fit">Curriculum Vitae</a></li>
+							<li><a href="course.html" class="button fit">My Courses</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section class="gallery-section" id="one">
+						<header class="major">
+							<h2>
+								C++ Vulkan Renderer <br />
+							</h2>
+						</header>
+						<p>A modern rendering engine written from scratch using C++ with the <a href="https://vulkan.lunarg.com/" target="_blank">Vulkan API</a> that leverages GPU-driven techniques to maximize efficiency and visual quality. This project explores modern real-time rendering approaches and advancements in graphics programming. The renderer is a used to view <a href="https://www.khronos.org/Gltf" target="_blank">glTF</a> models. </p>
+						<ul>
+              <li>Implements a <a href="https://www.khronos.org/blog/mesh-shading-for-vulkan" target="_blank">mesh shader</a> pipeline for GPU side meshlet culling</li>
+              <li>Implements two-pass <a href="https://jcgt.org/published/0002/02/05/" target="_blank">occlusion culling</a> using a depth pyramid</li>
+              <li>Makes use of Imgui to display a GPU profiler</li>
+						</ul>
+            <div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/FlightHelmet.png" class="image fit thumb"><img src="images/FlightHelmet.png" alt="" /></a>
+								<h3>Flight Helmet glTF model</h3>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/Sponza.png" class="image fit thumb"><img src="images/Sponza.png" alt="" /></a>
+								<h3>Sponza glTF model</h3>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/Sponza_Meshlet.png" class="image fit thumb"><img src="images/Sponza_Meshlet.png" alt="" /></a>
+								<h3>Sponza glTF model meshlet view</h3>
+							</article>
+						</div>
+
+            <div markdown="1">
+             Access the GitHub repository <a href="https://github.com/dili-o/vulkan-renderer" target="_blank">HERE</a>
+            </div>
+					</section>
+
+				<!-- Two -->
+					<section class="gallery-section" id="two">
+						<header class="major">
+							<h2>
+								Compute based Path Tracer <br />
+							</h2>
+						</header>
+						<p>In this project, I implement the core concepts discussed in the e-book <a href="https://raytracing.github.io/books/RayTracingInOneWeekend.html" target="_blank">"Ray Tracing in One Weeked"</a>, converting the CPU implementation from the book to a GPU implementation utilizing the compute pipeline in the Vulkan API and C++.</p>
+						<ul>
+              <li>Uses Vulkan’s compute pipeline to process ray intersections in parallel</li>
+              <li>Implements Lambertian, Metal, and Dielectric materials</li>
+              <li>Accumulates rendered frames for progressive refinement</li>
+						</ul>
+            <div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/Pathtracer.png" class="image fit thumb"><img src="images/Pathtracer.png" alt="" /></a>
+								<h3>Recreation of the book cover</h3>
+							</article>
+						</div>
+
+            <div markdown="1">
+               Access the GitHub repository <a href="https://github.com/dili-o/RayTracing" target="_blank">HERE</a>
+            </div>
+					</section>
+
+				<!-- Three -->
+					<section class="gallery-section" id="three">
+						<header class="major">
+							<h2>
+								Compute based Path Tracer <br />
+							</h2>
+						</header>
+						<p>This project is a clone of the arcade classic Space Invaders, built from the ground up in C++ with SFML. The project was built as a learning experience following the free lectures by <a href="https://www.youtube.com/playlist?list=PL_xRyXins84_Jf-aCh7chj47HR4oZLPwK" target="_blank">David Churchill</a> on game programming using an Entity Component System.</p>
+						<ul>
+              <li>Entity Component System (ECS) for separation of concerns and improved performance</li>
+              <li>AABB Collision Detection and Resolution for precise hitbox interactions between player, enemies, and projectiles</li>
+              <li>Resource Management for managing loading and caching of textures, sounds, and fonts</li>
+						</ul>
+            <div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/Space_Invaders.gif" class="image fit"><img src="images/Space_Invaders.gif" alt="Animated GIF Preview" /></a>
+								<h3>Space Invaders</h3>
+							</article>
+						</div>
+
+            <div markdown="1">
+               Access the GitHub repository <a href="https://github.com/dili-o/Scene_Invaders" target="_blank">HERE</a>
+            </div>
+					</section>
+
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://github.com/dili-o" class="icon brands fa-github"><span class="label">Github</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
